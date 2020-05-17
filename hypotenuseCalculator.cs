@@ -35,29 +35,3 @@ namespace ConsoleApplication1
         }
     }
 }
-
-
-//Hypotenuse catches
-	//add c variable
-	if (a==0 || b == 0 || c == 0){
-		textBox3.Text = "Error. A triangle cannot have a side length of 0";
-		}
-		
-	else if ((a == null && b == null) || (b == null && c == null) || (a == null && c == null)){
-		textBox3.Text = "Error. Must enter two side's lengths to find the third.";
-		}
-		
-	else if (c == null){
-		//current code
-		}
-		
-	else if (a == null){
-		a = Math.Sqrt((Math.Pow(c,2) - (Math.Pow(b,2));
-		textBox1.Text = a;
-		}
-	else {
-		b = Math.Sqrt((Math.Pow(c,2) - (Math.Pow(a,2));
-		textBox2.Text = b;
-		}
-		
-//Add perimeter and area to tringle, will need different triangle options
